@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edna Napoli </title>
+    <link rel="stylesheet" href="https://unpkg.com/nes.css/css/nes.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="nes-text is-primary">Edna's Portfolio</h1>
+    </header>
+
+    <section id="about-me" class="nes-container with-title">
+        <p class="title">About Me</p>
+        <p>Hello! I'm <span class="nes-text is-primary">Edna Napoli</span>, a passionate web developer with a love for retro gaming and creative design ! I am also really passionate about equal access to education.
+            I am currently a junior at Swarthmore College studying Computer Science. Outside of the classroom, I have created a website for a company in Addis Ababa, Ethiopia called ABEM industries. I have also interned at a tech
+            firm in Washington DC this summer, this gave me the skills I could only learn about in work enviroment. This fall I will be a Tech Fellow @ <span class="nes-text is-success">Codepath</span>, helping students understand Data Structures and Algorithms while encouraging them 
+            to believe that everyone can have a career in tech!  
+        </p>
+    </section>
+
+    <section id="projects" class="nes-container with-title">
+        <p class="title">Projects</p>
+            <div class="project nes-container is-rounded">
+                <img src="Blender.png" alt="Project 1" class="project-image" width="500" height="400">
+                <span class="nes-text is-warning"><p>Project 1: 3D Portfolio Website</span> <span class="nes-text is-error">-Three.js,WebGL,JavaScript, React Three Fiber, Blender</p></span>
+                <p>Right now , I am working on a 3d interactive website! 
+                    I've already built out the 3D model on Blender — a retro computer. Now I am working on attaching this website as an Iframe on top of the model.
+                    An Iframe would be giving my 3D object a live, interactive display. So, instead of just being a static model, the screen or surface can show any webpage, video, or interactive content I want, right within my 3D scene. 
+                    It is a pretty cool way to blend 3D graphics with web development, I hope to be done with this soon!
+                </p>
+            </div>
+            <div class="project nes-container is-rounded">
+                <span class="nes-text is-warning"><p>Project 2: Event Pal Slackbot</span> <span class="nes-text is-error">- Python, Slack, OpenAI API</p></span>
+                <p>EventPal is a Slack bot that I built using Python. The idea behind it was to make business interactions a lot more efficient by automating some of the routine tasks that usually take up time.
+                    Here’s how it works: EventPal taps into the Slack API to extract information from business cards. Say someone shares a business card in a Slack channel—EventPal can pull out the key details like the person's name, title, and contact information.
+                    Then, it takes things a step further by automatically generating a personalized introductory email based on that information.
+                </p>
+            </div>
+            <div class="project nes-container is-rounded">
+                <span class="nes-text is-warning"><p>Project 3:Full-Stack LLM Service on AWS </span> <span class="nes-text is-error">- Python, AWS Lamda, AWS Api Gateway</p></span>
+                <p>In this project, I built a full-stack service that uses large language models (LLMs) on AWS. The process involved developing an API to handle user requests, integrating LLMs to generate responses, and deploying the entire service on AWS for scalability. 
+                    The project required learning and implementing various AWS services like Lambda, API Gateway, and S3, as well as using Python for the backend. The final product is a scalable, cloud-based AI service that can process and respond to user queries using LLMs.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="nes-container with-title">
+        <p class="title">Contact Me</p>
+        <form>
+            <div class="nes-field">
+                <label for="name_field">Your Name</label>
+                <input type="text" id="name_field" class="nes-input">
+            </div>
+            <div class="nes-field">
+                <label for="email_field">Your Email</label>
+                <input type="email" id="email_field" class="nes-input">
+            </div>
+            <div class="nes-field">
+                <label for="message_field">Message</label>
+                <textarea id="message_field" class="nes-textarea"></textarea>
+            </div>
+            <button type="submit" class="nes-btn is-primary">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p class="nes-text is-disabled">© 2024 Edna. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

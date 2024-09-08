@@ -1,0 +1,42 @@
+body {
+    font-family: 'Press Start 2P';
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+.nes-text.is-primary {
+    color: #f29ece; /* Hot pink text */
+}
+.nes-text.is-warning {
+    color: #7bb0ff; /* Hot pink text */
+}
+
+.nes-text.is-error {
+    color: #0064f9; /* Hot pink text */
+}
+
+.project-image {
+    width: 500px;
+    height: 400px;
+    border: 2px solid rgb(168, 193, 243);
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.nes-container.with-title {
+    margin-bottom: 20px;
+}
+
+.project-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
